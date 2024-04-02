@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_directional",
+  "textures": {
+    "down": "tatervator:block/tatervator_jet",
+    "east": "tatervator:block/tatervator_side",
+    "north": "tatervator:block/tatervator_sticky",
+    "particle": "tatervator:block/tatervator_side",
+    "south": "tatervator:block/tatervator_side",
+    "up": "tatervator:block/tatervator_jet",
+    "west": "tatervator:block/tatervator_side"
+  }
+}

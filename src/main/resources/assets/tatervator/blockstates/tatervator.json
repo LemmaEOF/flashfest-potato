@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,triggered=false": {
+      "model": "tatervator:block/tatervator",
+      "y": 90
+    },
+    "facing=east,triggered=true": {
+      "model": "tatervator:block/tatervator_triggered",
+      "y": 90
+    },
+    "facing=north,triggered=false": {
+      "model": "tatervator:block/tatervator"
+    },
+    "facing=north,triggered=true": {
+      "model": "tatervator:block/tatervator_triggered"
+    },
+    "facing=south,triggered=false": {
+      "model": "tatervator:block/tatervator",
+      "y": 180
+    },
+    "facing=south,triggered=true": {
+      "model": "tatervator:block/tatervator_triggered",
+      "y": 180
+    },
+    "facing=west,triggered=false": {
+      "model": "tatervator:block/tatervator",
+      "y": 270
+    },
+    "facing=west,triggered=true": {
+      "model": "tatervator:block/tatervator_triggered",
+      "y": 270
+    }
+  }
+}

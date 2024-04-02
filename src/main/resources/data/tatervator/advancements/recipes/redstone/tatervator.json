@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_floatater": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:floatater"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tatervator:tatervator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_floatater"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tatervator:tatervator"
+    ]
+  }
+}
